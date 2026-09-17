@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sommaire</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #222;
+    }
+
+    .projets {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .projet {
+      background: white;
+      padding: 25px;
+      width: 180px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px #0002;
+      text-decoration: none;
+      color: #222;
+      transition: 0.3s;
+    }
+
+    .projet:hover {
+      transform: translateY(-5px);
+      background: #e8f0ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sommaire des projets</h1>
+
+  <div class="projets">
+    <a class="projet" href="index_modifie.html">
+      <h2>Projet 1</h2>
+      <p>Découvrir le projet 1</p>
+    </a>
+
+    <a class="projet" href="projet2.html">
+      <h2>Projet 2</h2>
+      <p>Découvrir le projet 2</p>
+    </a>
+
+    <a class="projet" href="projet3.html">
+      <h2>Projet 3</h2>
+      <p>Découvrir le projet 3</p>
+    </a>
+  </div>
+</body>
+</html>
