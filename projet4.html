@@ -5,45 +5,50 @@
 <title>Inscription d'un nouveau client</title>
 </head>
 
-<body bgcolor="#DDEEFF" text="#003366">
+<body>
 
 <center>
 <h1>Inscription d'un nouveau client</h1>
 </center>
 
-<hr color="#4682B4">
+<hr>
 
 <form>
-<label>Nom :</label>
-<input type="text" name="t1">
-<br><br>
-
-<label>Date de naissance :</label>
-<input type="date" name="d1">
-<br><br>
-
-<label>Age :</label>
-<input type="number" name="n1">
-<br><br>
-
-<label>Email :</label>
-<input type="email" name="email">
-<br><br>
-
-<label>Commentaire :</label>
-<br>
-<textarea cols="30" rows="8" name="commentaire"></textarea>
-<br><br>
-
-<label>Mot de passe :</label>
-<input type="password" name="p1">
-<br><br>
-
+<table border="1">
+<tr>
+<td><label>Nom :</label></td>
+<td><input type="text" name="t1"></td>
+</tr>
+<tr>
+<td><label>Date de naissance :</label></td>
+<td><input type="date" name="d1"></td>
+</tr>
+<tr>
+<td><label>Age :</label></td>
+<td><input type="number" name="n1"></td>
+</tr>
+<tr>
+<td><label>Email :</label></td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr>
+<td><label>Commentaire :</label></td>
+<td><textarea cols="30" rows="8" name="commentaire"></textarea></td>
+</tr>
+<tr>
+<td><label>Mot de passe :</label></td>
+<td><input type="password" name="p1"></td>
+</tr>
+<tr>
+<td colspan="2">
 <input type="submit" value="S'inscrire">
 <input type="reset" value="Effacer">
+</td>
+</tr>
+</table>
 </form>
 
-<hr color="#4682B4">
+<hr>
 
 <a href="index.html">Retour au menu</a>
 
