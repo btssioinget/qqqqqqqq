@@ -3,6 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <title>Inscription d'un nouveau client</title>
+<style>
+body {
+	background-color: #eaf4ff;
+	color: #17324d;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color: #155a92;
+}
+
+table {
+	margin-left: 0;
+	background-color: #ffffff;
+	border-color: #6ca6d8;
+}
+
+td {
+	padding: 8px;
+}
+</style>
 </head>
 
 <body>
@@ -30,6 +51,43 @@
 <tr>
 <td><label>Email :</label></td>
 <td><input type="email" name="email"></td>
+</tr>
+<tr>
+<td><label>Ville :</label></td>
+<td>
+<select name="ville">
+<option value="paris">Paris</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label>Spécialité :</label></td>
+<td>
+<label><input type="checkbox" name="specialite" value="slam"> SLAM</label>
+<label><input type="checkbox" name="specialite" value="sisr"> SISR</label>
+</td>
+</tr>
+<tr>
+<td><label for="adresse">Adresse du client :</label></td>
+<td><input type="text" id="adresse" name="adresse"></td>
+</tr>
+<tr>
+<td><label for="permis">Numéro de permis de conduire :</label></td>
+<td><input type="text" id="permis" name="permis"></td>
+</tr>
+<tr>
+<td><label>Situation matrimoniale :</label></td>
+<td>
+<label><input type="radio" name="situation" value="marie"> Marié</label>
+<label><input type="radio" name="situation" value="celibataire"> Célibataire</label>
+</td>
+</tr>
+<tr>
+<td><label>Préférence de voiture :</label></td>
+<td>
+<label><input type="radio" name="voiture" value="manuelle"> Manuelle</label>
+<label><input type="radio" name="voiture" value="automatique"> Automatique</label>
+</td>
 </tr>
 <tr>
 <td><label>Commentaire :</label></td>
