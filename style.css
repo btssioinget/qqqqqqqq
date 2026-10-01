@@ -1,89 +1,41 @@
-:root {
-  --bleu: #176b87;
-  --bleu-fonce: #124c63;
-  --fond: #eaf4f7;
-  --texte: #20343b;
-  --blanc: #ffffff;
-  --bordure: #bdd4dc;
-}
-
 body {
-  margin: 0;
-  padding: 40px 16px;
-  background: var(--fond);
-  color: var(--texte);
-  font-family: "Trebuchet MS", Arial, sans-serif;
-  text-align: center;
+    background-color: salmon;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-
 h1 {
-  margin: 0 0 24px;
-  color: var(--bleu-fonce);
-  font-size: 30px;
+    color: skyblue;
 }
-
 form {
-  display: inline-block;
-  width: 100%;
-  max-width: 440px;
-  box-sizing: border-box;
-  padding: 28px;
-  background: var(--blanc);
-  border: 1px solid var(--bordure);
-  border-top: 5px solid var(--bleu);
-  text-align: left;
+    background-color: blanchedalmond;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
 }
-
-form p {
-  margin: 0 0 18px;
-}
-
 label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px;
-  border: 1px solid var(--bordure);
-  border-radius: 4px;
-  background: #fbfdfe;
-  color: var(--texte);
-  font: inherit;
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #ccc;
+    border-radius: 30px;
 }
-
-textarea {
-  resize: vertical;
-}
-
 input[type="submit"] {
-  padding: 11px 18px;
-  border: 0;
-  border-radius: 4px;
-  background: var(--bleu);
-  color: var(--blanc);
-  font: inherit;
-  font-weight: bold;
-  cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
 }
-
 input[type="submit"]:hover {
-  background: var(--bleu-fonce);
-}
-
-body > p {
-  margin-top: 22px;
-}
-
-a {
-  color: var(--bleu-fonce);
-}
-
-a:hover {
-  color: var(--bleu);
+    background-color: green;
 }
