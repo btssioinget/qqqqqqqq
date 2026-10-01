@@ -1,0 +1,89 @@
+:root {
+  --bleu: #176b87;
+  --bleu-fonce: #124c63;
+  --fond: #eaf4f7;
+  --texte: #20343b;
+  --blanc: #ffffff;
+  --bordure: #bdd4dc;
+}
+
+body {
+  margin: 0;
+  padding: 40px 16px;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 24px;
+  color: var(--bleu-fonce);
+  font-size: 30px;
+}
+
+form {
+  display: inline-block;
+  width: 100%;
+  max-width: 440px;
+  box-sizing: border-box;
+  padding: 28px;
+  background: var(--blanc);
+  border: 1px solid var(--bordure);
+  border-top: 5px solid var(--bleu);
+  text-align: left;
+}
+
+form p {
+  margin: 0 0 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid var(--bordure);
+  border-radius: 4px;
+  background: #fbfdfe;
+  color: var(--texte);
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 11px 18px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--bleu);
+  color: var(--blanc);
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: var(--bleu-fonce);
+}
+
+body > p {
+  margin-top: 22px;
+}
+
+a {
+  color: var(--bleu-fonce);
+}
+
+a:hover {
+  color: var(--bleu);
+}
