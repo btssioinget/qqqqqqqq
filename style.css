@@ -39,3 +39,31 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: green;
 }
+
+.titre-principal {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 16px;
+}
+
+.bloc {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.sous-titre {
+    color: #176b87;
+}
+
+.texte {
+    line-height: 1.6;
+}
+
+.important {
+    font-weight: bold;
+}
