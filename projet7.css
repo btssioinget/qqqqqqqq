@@ -1,0 +1,46 @@
+body {
+    background-color: #f1e6f5;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.titre {
+    background-color: #6a1b78;
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.image-luvresval {
+    display: block;
+    width: min(80%, 400px);
+    height: auto;
+    margin: 0 auto 30px;
+}
+
+.p1, .p3 {
+    background-color: #7b2d8e;
+    height: 200px;
+    width: 80%;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center;
+}
+
+.p2 {
+    height: 200px;
+    width: 80%;
+    background-color: #a51d3d;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center;
+}

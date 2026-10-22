@@ -1,0 +1,91 @@
+:root {
+  color-scheme: light;
+  --fond-bleu: #eef3ff;
+  --surface: #ffffff;
+  --bleu: #3156a6;
+  --bleu-profond: #20366f;
+  --bleu-clair: #dce8ff;
+  --violet: #7052b8;
+  --violet-clair: #eee8fb;
+  --texte: #202945;
+  --bordure: #c8d3ed;
+}
+
+body {
+  background: linear-gradient(135deg, #edf4ff 0%, #f2efff 100%) fixed !important;
+  color: var(--texte) !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--bleu-profond) !important;
+}
+
+.titre-principal {
+  background-color: var(--bleu-profond) !important;
+  color: #ffffff !important;
+}
+
+.sous-titre,
+.important {
+  color: var(--violet) !important;
+}
+
+a {
+  color: var(--violet) !important;
+}
+
+a:hover {
+  color: var(--bleu-profond) !important;
+}
+
+form,
+.bloc,
+.projet {
+  background-color: var(--surface) !important;
+  border-color: var(--bordure) !important;
+  color: var(--texte) !important;
+}
+
+.projet:hover,
+.mise-en-avant {
+  background-color: var(--violet-clair) !important;
+}
+
+.mise-en-avant {
+  border-left-color: var(--violet) !important;
+}
+
+table[bgcolor],
+td[bgcolor],
+th[bgcolor] {
+  background-color: var(--bleu) !important;
+  color: #ffffff !important;
+}
+
+font[color] {
+  color: #ffffff !important;
+}
+
+a.bouton,
+a.bouton-menu,
+button,
+input[type="submit"],
+input[type="button"] {
+  background-color: var(--bleu) !important;
+  border-color: var(--bleu) !important;
+  color: #ffffff !important;
+}
+
+input:not([type="submit"]):not([type="button"]),
+textarea,
+select {
+  border-color: var(--bordure);
+  color: var(--texte);
+}
+
+hr {
+  border-color: var(--bordure);
+}
