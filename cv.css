@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #e5e5e5;
+    padding: 30px 16px;
+}
+
+.cv {
+    margin: auto;
+    padding: 40px 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.header-img {
+    float: left;
+    width: 30%;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.header-txt {
+    float: right;
+    width: 65%;
+}
+
+.header-txt h1 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.header-txt .espace {
+    margin-bottom: 10px;
+}
+
+.coordonnees {
+    border: 2px solid red;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+}
+
+.section {
+    clear: both;
+    border: 2px solid red;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.section h2 {
+    font-family: Arial, sans-serif;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.entree {
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.entree .date {
+    float: left;
+}
+
+.entree .contenu {
+    clear: both;
+}
+
+.entree .contenu h3 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 5px;
+}
